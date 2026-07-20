@@ -1,0 +1,74 @@
+body{
+    background:#14532d;
+}
+
+.login-page{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-card{
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.left-panel{
+    background:#f5faf5;
+    padding:40px;
+    position:relative;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo img{
+    width:45px;
+}
+
+.logo p{
+    font-size:13px;
+    color:gray;
+}
+
+.welcome{
+    margin-top:100px;
+}
+
+.leaf{
+    width:160px;
+    position:absolute;
+    left:0;
+    bottom:20px;
+}
+
+.right-panel{
+    padding:60px;
+}
+
+.password-box{
+    position:relative;
+}
+
+.eye{
+    position:absolute;
+    right:15px;
+    top:12px;
+    color:gray;
+}
+
+.login-btn{
+    width:100%;
+    background:#166534;
+    border:none;
+    padding:10px;
+}
+
+.login-btn:hover{
+    background:#14532d;
+}
